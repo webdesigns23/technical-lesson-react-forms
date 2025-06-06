@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <EmployeeForm/>
+      <EmployeeForm employees={employees} setEmployees={setEmployees}/>
       <EmployeeList employees={employees}/>
     </div>
   )
